@@ -13,3 +13,16 @@
         font-weight: 700;
     }
 }
+.btn{
+    padding: 18px 40px;
+    text-transform: uppercase;
+    &-blue{
+        background: $blue;
+        color: $white;
+    }
+    &-empty{
+        background-color: transparent;
+        color: $blue;
+        border: 1px solid $blue;
+    }
+}

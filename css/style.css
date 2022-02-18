@@ -361,6 +361,22 @@ template {
   font-weight: 700;
 }
 
+.btn {
+  padding: 18px 40px;
+  text-transform: uppercase;
+}
+
+.btn-blue {
+  background: #0842b7;
+  color: #fff;
+}
+
+.btn-empty {
+  background-color: transparent;
+  color: #0842b7;
+  border: 1px solid #0842b7;
+}
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -397,8 +413,11 @@ img {
   max-width: 100%;
 }
 
+.section {
+  padding: 35px 0;
+}
+
 .header {
-  padding: 2.187rem 0;
   font-weight: 700;
 }
 
@@ -446,5 +465,30 @@ img {
 .header__num .number-dark {
   color: #000;
   font-weight: 700;
+}
+
+.hero__texts {
+  margin-bottom: 4.375rem;
+}
+
+.hero__title {
+  font-size: 4.375rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.hero__untitle {
+  font-size: 2.3rem;
+  font-weight: normal;
+}
+
+.hero__text {
+  max-width: 21.875rem;
+  font-size: 1rem;
+}
+
+.hero__bottom-button {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
