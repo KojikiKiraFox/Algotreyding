@@ -1,0 +1,15 @@
+.logo{
+    &-img{
+        margin-right: 0.75rem;
+    }
+    &-link{
+        display: flex;
+        align-items: center;
+    }
+    &-text{
+        text-transform: uppercase;
+        color: $dark;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
