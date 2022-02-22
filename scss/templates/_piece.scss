@@ -1,0 +1,11 @@
+.piece{
+    background: url(../img/piece/bg-piece.png) no-repeat center / cover;
+    &-txt{
+        text-align: center;
+    }
+    .insert{
+        &__items{
+            max-width: 34.625rem;
+        }
+    }
+}

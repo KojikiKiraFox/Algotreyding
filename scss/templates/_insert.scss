@@ -1,0 +1,26 @@
+.insert{
+    background: url(../img/insert/bg-insert.png) no-repeat center / cover;
+    &__items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 28.437rem;
+        margin: 0 auto;
+    }
+    &__item{
+        &-txt{
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 2.187rem;
+        }
+    }
+    &-txt{
+        color: $white;
+
+    }
+    .btn-insert{
+        color: $white;
+        border:1px solid $white;
+    }
+}

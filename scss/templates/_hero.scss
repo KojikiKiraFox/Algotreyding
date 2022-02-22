@@ -11,6 +11,7 @@
         margin-bottom: 0;
     }
     &__untitle{
+        margin-bottom: 1.5rem;
         font-size: 2.3rem;
         font-weight: normal;
     }
@@ -39,15 +40,27 @@
     // info
     &__info{
         &-title{
-            font-size: 1rem;
+            margin-top: -20rem;
+            max-width: 18.375rem;
+            text-align: center;
+            font-size: 2rem;
             background-color: $white;
             padding: 20px;
+        }
+        &-items{
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
         }
         &__item{
             max-width: 26.25rem;
             &-top{
                 display: flex;
                 align-items: end;
+            }
+            &-img{
+                margin: 0 auto;
+                margin-bottom: 4.625rem;
             }
             &-left{
                 font-size: 21.375rem;
@@ -58,6 +71,7 @@
             &-untitle{
                 font-size: 1.5rem;
                 font-weight: 700;
+                margin-bottom: 1.937rem;
             }
             &-text{
                 max-width: 17rem;
