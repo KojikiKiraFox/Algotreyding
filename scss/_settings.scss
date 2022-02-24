@@ -25,6 +25,42 @@ img{
 .blue{
     color: $turquoise;
 }
+.col{
+    &-50{
+        flex-basis: 50%;
+    }
+    &-60{
+        flex-basis: 60%;
+    }
+    &-70{
+        flex-basis: 70%;
+    }
+}
+
 .section{
     padding: 35px 0;
+    &-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__heading{
+            font-weight: normal;
+            font-size: 2.25rem;
+            color: $dark;
+            text-align: center;
+        }
+        &__subtitle{
+            text-align: center;
+        }
+    }
+}
+button{
+    padding: 1.125rem 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.0625rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
