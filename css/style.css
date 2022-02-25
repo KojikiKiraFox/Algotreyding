@@ -455,9 +455,11 @@ img {
   font-size: 2.25rem;
   color: #000;
   text-align: center;
+  margin-bottom: 1.2rem;
 }
 
 .section-title__subtitle {
+  max-width: 21.85rem;
   text-align: center;
 }
 
@@ -744,6 +746,52 @@ button {
   text-align: center;
   max-width: 35.1875rem;
   margin-bottom: 2.8125rem;
+}
+
+.costs__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 4.625rem;
+  padding-bottom: 7.5rem;
+}
+
+.costs__item {
+  min-height: 23.562rem;
+  max-width: 21.175rem;
+  text-align: center;
+}
+
+.costs__item-title {
+  font-weight: 700;
+  margin-bottom: 1.687rem;
+}
+
+.costs__item-price {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 2.812rem;
+}
+
+.costs__item-list {
+  font-size: 1rem;
+  color: #061826;
+}
+
+.costs__item-list:not(:last-child) {
+  margin-bottom: 1.812rem;
+}
+
+.costs__item:not(:last-child) {
+  border-right: 1px solid #eaf1f7;
+  padding-right: 6.875rem;
+}
+
+.costs .btn-costs {
+  padding: 18px 50px;
 }
 
 .piece {
