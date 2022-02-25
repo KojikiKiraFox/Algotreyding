@@ -1,0 +1,21 @@
+.results{
+    background: url(../img/results/bg.png) no-repeat left bottom;
+    padding-bottom: 111px;
+    &-text{
+        position: relative;
+        max-width: 16.5rem;
+    }
+    &-title{
+        font-size: 2rem;
+        font-weight: normal;
+        margin-bottom: 1.812rem;
+    }
+    &__img{
+        margin-bottom: 2.75rem;
+    }
+    &__col{
+        &-title{
+            margin-bottom: 1.937rem;
+        }
+    }
+}

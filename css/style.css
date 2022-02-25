@@ -812,6 +812,30 @@ button {
   padding: 18px 50px;
 }
 
+.results {
+  background: url(../img/results/bg.png) no-repeat left bottom;
+  padding-bottom: 111px;
+}
+
+.results-text {
+  position: relative;
+  max-width: 16.5rem;
+}
+
+.results-title {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 1.812rem;
+}
+
+.results__img {
+  margin-bottom: 2.75rem;
+}
+
+.results__col-title {
+  margin-bottom: 1.937rem;
+}
+
 .piece {
   background: url(../img/piece/bg-piece.png) no-repeat center/cover;
 }
