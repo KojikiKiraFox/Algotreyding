@@ -856,6 +856,58 @@ button {
   margin-bottom: 2.8125rem;
 }
 
+.process {
+  position: relative;
+}
+
+.process .section-title {
+  max-width: 28.9rem;
+  margin-bottom: 6.875rem;
+}
+
+.process .section-title__heading {
+  text-align: left;
+}
+
+.process__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.process__item {
+  max-width: 9.7rem;
+  text-align: left;
+}
+
+.process__item-top {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.process__item-center {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.process__item-bottom {
+  font-size: 1rem;
+}
+
+.process::before {
+  content: "";
+  position: absolute;
+  background: #eaf1f7 center/cover;
+  width: 200%;
+  height: 100%;
+  z-index: -1;
+  -webkit-transform: rotate(-6.5deg);
+          transform: rotate(-6.5deg);
+}
+
 .costs__items {
   display: -webkit-box;
   display: -ms-flexbox;

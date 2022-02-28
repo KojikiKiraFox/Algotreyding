@@ -1,0 +1,38 @@
+.process{
+    position: relative;
+    .section-title{
+        max-width: 28.9rem;
+        margin-bottom: 6.875rem;
+        &__heading{
+            text-align: left;
+        }
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        max-width: 9.7rem;
+        text-align: left;
+        &-top{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        &-center{
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        &-bottom{
+            font-size: 1rem;
+        }
+    }
+    &::before{
+        content: "";
+        position: absolute;
+        background: rgba(234, 241, 247, 1) center / cover;
+        width: 200%;
+        height: 100%;
+        z-index: -1;
+        transform: rotate(-6.5deg);   
+    }
+}
