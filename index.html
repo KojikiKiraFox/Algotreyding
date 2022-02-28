@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Algotreyding</title>
 </head>
@@ -119,6 +120,55 @@
         </section>
         <!-- /.section insert -->
 
+        <section class="benefits section">
+            <div class="container">
+                <h2 class="section-title__heading"><strong>Какие выгоды </strong> я получу<br> от создания своего робота?</h2>
+                <div class="benefits-swiper">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__content">
+                                    <img src="img/benefits/stonks.png" alt="прибыль" class="swiper-slide__img">
+                                    <h3 class="swiper-slide__text">Прибыль</h3>
+                                    <p class="swiper-slide__desc">Используйте <br> своего робота <br> и получайте прибыль</p>
+                                </div>
+                                <!-- /.swiper-slide__content -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__content">
+                                    <img src="img/benefits/stonks.png" alt="прибыль" class="swiper-slide__img">
+                                    <h3 class="swiper-slide__text">Прибыль</h3>
+                                    <p class="swiper-slide__desc">Используйте <br> своего робота <br> и получайте прибыль</p>
+                                </div>
+                                <!-- /.swiper-slide__content -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__content">
+                                    <img src="img/benefits/stonks.png" alt="прибыль" class="swiper-slide__img">
+                                    <h3 class="swiper-slide__text">Прибыль</h3>
+                                    <p class="swiper-slide__desc">Используйте <br> своего робота <br> и получайте прибыль</p>
+                                </div>
+                                <!-- /.swiper-slide__content -->
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev">
+                            <span class="swiper-button__text swiper-button-prev__text">Комиссия</span>
+                        </div>
+                        <div class="swiper-button-next">
+                            <span class="swiper-button__text swiper-button-next__text">Вознаграждение</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.benefits-swiper -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.section benefits -->
+
         <section class="section steps">
             <div class="container">
                 <div class="section-title">
@@ -206,6 +256,23 @@
         </section>
         <!-- /.costs section -->
 
+        <section class="lessons section">
+            <div class="container">
+                <div class="section-title">
+                    <p class="section-title__heading">Остались вопросы?</p>
+                    <p class="section-title__subtitle">Оставьте свои контактные данные и мы с Вами свяжемся
+                        в самое ближайшее время</p>
+                </div>
+                <div class="lessons__input">
+                    <input type="text" placeholder="Имя" class="questionform-name">
+                    <input type="phone" placeholder="Телефон" class="questionform-phone">
+                    <input type="email" placeholder="Email" class="question__form-email">
+                    <button class="btn btn-lessons btn-blue">Свяжитесь со мной</button>
+                </div>
+            </div>
+        </section>
+        <!-- /lessons section -->
+
         <section class="results section">
             <div class="container">
                 <div class="row">
@@ -244,15 +311,15 @@
         <section class="questions section">
             <div class="container">
                 <div class="section-title">
-                    <p class="section-title__heading">Создайте своего <br> авторского торгового робота</p>
-                    <p class="section-title__subtitle">получайте прибыль даже с нулевыми знаниями в сфере алгоритмической
-                        торговли</p>
+                    <p class="section-title__heading">Остались вопросы?</p>
+                    <p class="section-title__subtitle">Оставьте свои контактные данные и мы с Вами свяжемся
+                    в самое ближайшее время</p>
                 </div>
                 <div class="questions__input">
                     <input type="text" placeholder="Имя" class="questionform-name">
                     <input type="phone" placeholder="Телефон" class="questionform-phone">
                     <input type="email" placeholder="Email" class="question__form-email">
-                    <a href="#" class="btn btn-questions btn-blue">Свяжитесь со мной</a>
+                    <button class="btn btn-questions btn-blue">Свяжитесь со мной</button>
                 </div>
             </div>
         </section>
@@ -263,6 +330,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

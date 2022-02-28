@@ -1,0 +1,20 @@
+.lessons{
+    padding: 122px 0;
+    background: linear-gradient(0.25turn, $dgrey, $darkblue, $dgrey),url(../img/lessons-bg.png) no-repeat center / cover;
+    color: $white;
+    .section-title{
+        margin-bottom: 3rem;
+        &__heading{
+            color: $white;
+        }
+    }
+    &__input{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 22.375rem;
+        input{
+            margin-bottom: 1.75rem;
+        }
+    }
+}

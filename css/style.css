@@ -361,6 +361,15 @@ template {
   font-weight: 700;
 }
 
+input {
+  border-radius: 3px;
+  padding: 17px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1rem;
+}
+
 .btn {
   padding: 18px 40px;
   border-radius: 3px;
@@ -452,7 +461,7 @@ img {
 }
 
 .section {
-  padding: 35px 0;
+  padding: 120px 0;
 }
 
 .section-title {
@@ -482,7 +491,7 @@ img {
 }
 
 button {
-  padding: 1.125rem 2.5rem;
+  padding: 1.062rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -493,6 +502,7 @@ button {
 }
 
 .header {
+  padding: 35px 0;
   font-weight: 700;
 }
 
@@ -696,6 +706,86 @@ button {
   border: 1px solid #fff;
 }
 
+.benefits {
+  padding-bottom: 24.25rem;
+  background: url("../img/benefits/bg.png") no-repeat center/cover;
+}
+
+.benefits .section-title__heading {
+  max-width: 29.875rem;
+  margin: auto;
+  margin-bottom: 18.5rem;
+}
+
+.benefits-swiper {
+  max-width: 1142px;
+  height: 20px;
+}
+
+.benefits .swiper-slide__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 19.6875rem;
+  margin: auto;
+}
+
+.benefits .swiper-slide__img {
+  margin-bottom: 3.25rem;
+}
+
+.benefits .swiper-slide__text {
+  margin-bottom: 1.9375rem;
+}
+
+.benefits .swiper-slide__desc {
+  max-width: 10.8125rem;
+  text-align: center;
+}
+
+.benefits .swiper-button__text {
+  color: #000;
+  margin-top: 4rem;
+}
+
+.benefits .swiper-button-prev {
+  width: 120px;
+  background: url("../img/benefits/prev.png") no-repeat center;
+  background-size: 52px;
+}
+
+.benefits .swiper-button-prev__text {
+  margin-left: 1rem;
+}
+
+.benefits .swiper-button-prev::after {
+  display: none;
+}
+
+.benefits .swiper-button-next {
+  width: 120px;
+  background: url("../img/benefits/next.png") no-repeat center;
+  background-size: 52px;
+}
+
+.benefits .swiper-button-next__text {
+  margin-right: 4rem;
+}
+
+.benefits .swiper-button-next::after {
+  display: none;
+}
+
 .steps {
   border-bottom: 1px solid #eaf1f7;
 }
@@ -812,6 +902,37 @@ button {
   padding: 18px 50px;
 }
 
+.lessons {
+  padding: 122px 0;
+  background: -webkit-gradient(linear, left top, right top, from(#061826), color-stop(#03256C), to(#061826)), url(../img/lessons-bg.png) no-repeat center/cover;
+  background: linear-gradient(0.25turn, #061826, #03256C, #061826), url(../img/lessons-bg.png) no-repeat center/cover;
+  color: #fff;
+}
+
+.lessons .section-title {
+  margin-bottom: 3rem;
+}
+
+.lessons .section-title__heading {
+  color: #fff;
+}
+
+.lessons__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  max-width: 22.375rem;
+}
+
+.lessons__input input {
+  margin-bottom: 1.75rem;
+}
+
 .results {
   background: url(../img/results/bg.png) no-repeat left bottom;
   padding-bottom: 111px;
@@ -846,5 +967,24 @@ button {
 
 .piece .insert__items {
   max-width: 34.625rem;
+}
+
+.questions {
+  padding: 120px 0;
+  background: -webkit-gradient(linear, left top, right top, from(#061826), color-stop(#03256C), to(#061826));
+  background: linear-gradient(0.25turn, #061826, #03256C, #061826);
+  color: #fff;
+}
+
+.questions .section-title {
+  margin-bottom: 3rem;
+}
+
+.questions .section-title__heading {
+  color: #fff;
+}
+
+.questions input {
+  margin-right: 1.75rem;
 }
 /*# sourceMappingURL=style.css.map */
