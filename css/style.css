@@ -611,7 +611,7 @@ button {
 }
 
 .hero__info-title {
-  margin-top: -20rem;
+  margin-top: -30rem;
   max-width: 18.375rem;
   text-align: center;
   font-size: 2rem;
@@ -900,12 +900,73 @@ button {
 .process::before {
   content: "";
   position: absolute;
-  background: #eaf1f7 center/cover;
-  width: 200%;
+  background: #eaf1f7 center;
+  width: 98%;
   height: 100%;
   z-index: -1;
   -webkit-transform: rotate(-6.5deg);
           transform: rotate(-6.5deg);
+}
+
+.advantage {
+  background: #eaf1f7;
+}
+
+.advantage .section-title__heading {
+  margin-bottom: 3.75rem;
+}
+
+.advantage .section-title__subtitle {
+  margin: 0 auto;
+  margin-bottom: 2.25rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.advantage-list__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4.0625rem;
+}
+
+.advantage-list__container:last-of-type {
+  margin-bottom: 0;
+}
+
+.advantage-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantage-list__img {
+  margin-bottom: 1.3125rem;
+}
+
+.advantage-list__title {
+  font-size: 1rem;
+}
+
+.advantage-list__text {
+  text-align: center;
+  max-width: 15.4375rem;
 }
 
 .costs__items {
@@ -955,18 +1016,22 @@ button {
 }
 
 .lessons {
-  padding: 122px 0;
   background: -webkit-gradient(linear, left top, right top, from(#061826), color-stop(#03256C), to(#061826)), url(../img/lessons-bg.png) no-repeat center/cover;
   background: linear-gradient(0.25turn, #061826, #03256C, #061826), url(../img/lessons-bg.png) no-repeat center/cover;
   color: #fff;
 }
 
 .lessons .section-title {
-  margin-bottom: 3rem;
+  max-width: 40rem;
+  margin: 0 auto 3rem;
 }
 
 .lessons .section-title__heading {
   color: #fff;
+}
+
+.lessons .section-title__subtitle {
+  max-width: 26rem;
 }
 
 .lessons__input {
@@ -1038,5 +1103,28 @@ button {
 
 .questions input {
   margin-right: 1.75rem;
+}
+
+.footer__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__head-text {
+  font-size: 25px;
+  margin-bottom: 2.5rem;
+}
+
+.footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */

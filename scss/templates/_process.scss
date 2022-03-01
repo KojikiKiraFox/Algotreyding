@@ -29,8 +29,8 @@
     &::before{
         content: "";
         position: absolute;
-        background: rgba(234, 241, 247, 1) center / cover;
-        width: 200%;
+        background: rgba(234, 241, 247, 1) center;
+        width: 98%;
         height: 100%;
         z-index: -1;
         transform: rotate(-6.5deg);   

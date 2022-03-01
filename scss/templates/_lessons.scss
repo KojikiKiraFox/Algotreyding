@@ -1,11 +1,14 @@
 .lessons{
-    padding: 122px 0;
     background: linear-gradient(0.25turn, $dgrey, $darkblue, $dgrey),url(../img/lessons-bg.png) no-repeat center / cover;
     color: $white;
     .section-title{
-        margin-bottom: 3rem;
+        max-width: 40rem;
+        margin: 0 auto 3rem;
         &__heading{
             color: $white;
+        }
+        &__subtitle{
+            max-width: 26rem;
         }
     }
     &__input{

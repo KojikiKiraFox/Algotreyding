@@ -1,0 +1,16 @@
+.footer{
+    &__items{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__head{
+        &-text{
+            font-size: 25px;
+            margin-bottom: 2.5rem;
+        }
+    }
+    &-items{
+        display: flex;
+        justify-content: space-between;
+    }
+}
