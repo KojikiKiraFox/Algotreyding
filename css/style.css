@@ -387,6 +387,13 @@ input {
   border: 1px solid #0842b7;
 }
 
+.btn-white {
+  padding: 1.0625rem 2.4375rem;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -671,6 +678,77 @@ button {
   font-size: 1rem;
 }
 
+.creat {
+  background: #fff url("../img/creation-bg.png") no-repeat bottom;
+}
+
+.creat .col {
+  height: 7.5rem;
+}
+
+.creat .row {
+  margin-bottom: 6.5rem;
+}
+
+.creat-title {
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.creat-text {
+  max-width: 14.9375rem;
+}
+
+.creat .section-title {
+  margin-bottom: 4rem;
+}
+
+.creat .section-title__heading {
+  max-width: 31.3125rem;
+  margin-bottom: 1.8125rem;
+}
+
+.creat .section-title__subtitle {
+  max-width: 22.5rem;
+}
+
+.creat-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.creat-data:last-of-type {
+  margin-bottom: 0;
+}
+
+.creat-data__input {
+  width: 98px;
+  height: 48px;
+  text-indent: 20px;
+  border: 1px solid #cfdeee;
+  border-radius: 5px;
+  margin-right: 2.0625rem;
+  font-weight: bold;
+}
+
+.creat-data__text {
+  max-width: 12.5rem;
+}
+
+.creat-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .insert {
   background: url(../img/insert/bg-insert.png) no-repeat center/cover;
 }
@@ -856,6 +934,57 @@ button {
   margin-bottom: 2.8125rem;
 }
 
+.format {
+  border-bottom: 1px solid #eaf1f7;
+}
+
+.format .section-title {
+  margin-bottom: 4rem;
+}
+
+.format-card {
+  color: #fff;
+  padding: 11.375rem 14.375rem 2.75rem 2.75rem;
+}
+
+.format-card__title {
+  font-size: 1.5rem;
+  max-width: 9.9375rem;
+  margin-bottom: 1.9375rem;
+}
+
+.format-card__text {
+  max-width: 12.0625rem;
+}
+
+.format-card__test {
+  background: url("../img/format/01.jpg") no-repeat center;
+}
+
+.format-card__help {
+  background: url("../img/format/02.jpg") no-repeat center;
+}
+
+.format-card__help .format-card__text {
+  max-width: 17.0625rem;
+}
+
+.format .cards {
+  margin-bottom: 4.8125rem;
+}
+
+.format .card__img {
+  margin-bottom: 2.0625rem;
+}
+
+.format .card__title {
+  margin-bottom: 1.375rem;
+}
+
+.format .card__text {
+  max-width: 16.4375rem;
+}
+
 .process {
   position: relative;
 }
@@ -906,6 +1035,201 @@ button {
   z-index: -1;
   -webkit-transform: rotate(-6.5deg);
           transform: rotate(-6.5deg);
+}
+
+.learn {
+  background: url("../img/learn/01.jpg") no-repeat center/cover;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.learn .section-title__heading {
+  font-weight: bold;
+  color: #fff;
+}
+
+.learn .section-title__heading--left {
+  margin-bottom: 3.625rem;
+}
+
+.learn-heading {
+  margin-bottom: 2.3125rem;
+}
+
+.learn-questions {
+  padding-left: 1.1rem;
+  margin-bottom: 3.125rem;
+}
+
+.learn-questions__item {
+  margin-bottom: 1.5625rem;
+}
+
+.learn-questions__item::marker {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.learn-questions__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.learn-text {
+  font-weight: whiteer;
+  max-width: 27.3875rem;
+  padding-left: 1.1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.learn-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4.25rem;
+}
+
+.learn-number__text {
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: -6rem;
+  margin-bottom: 4.25rem;
+  max-width: 6.25rem;
+  width: 100%;
+}
+
+.learn-number__button {
+  border: none;
+  background: transparent;
+  padding: 0.65rem 0.9375rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.learn-number__button--active {
+  border: none;
+  color: #fff;
+  background-color: #06BEE1;
+  border-radius: 50%;
+}
+
+.learn .col-50:last-of-type {
+  padding-top: 4rem;
+}
+
+.learn-homework {
+  padding-bottom: 4.3125rem;
+  border-bottom: 1px solid #26556c;
+  margin-bottom: 4.9375rem;
+}
+
+.learn-homework__title {
+  font-size: 1.5rem;
+  margin-bottom: 2.6875rem;
+}
+
+.learn-homework__text {
+  max-width: 26.4875rem;
+}
+
+.learn-homework__text::marker {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.learn-homework .lessons-questions {
+  margin-bottom: 0;
+}
+
+.learn-bonus__title {
+  font-size: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.learn-bonus__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.learn-bonus__img {
+  margin-right: 1.9375rem;
+}
+
+.learn-bonus__text {
+  max-width: 20.5375rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.learn-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5.75rem;
+}
+
+.learn-buttons__button {
+  margin-right: 1.8125rem;
+}
+
+.learn .col-50--width:last-of-type .swiper {
+  padding-top: 4rem;
+}
+
+.learn .lessons-swiper-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.learn .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  background: transparent;
+}
+
+.learn .swiper-pagination {
+  position: relative;
+}
+
+.learn .swiper-horizontal > .swiper-pagination-bullets, .learn .swiper-pagination-bullets.swiper-pagination-horizontal, .learn .swiper-pagination-custom, .learn .swiper-pagination-fraction {
+  bottom: 0;
+}
+
+.learn .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+.learn .swiper-button-next, .learn .swiper-button-prev {
+  position: relative;
+  top: 0;
+  margin-top: 0;
+}
+
+.learn .swiper-button-next::after, .learn .swiper-button-prev::after {
+  display: none;
+}
+
+.learn .swiper-button-prev {
+  width: 60px;
+  background: url("../img/learn/arrow-left--op.png") no-repeat center;
+  margin-right: 11.9375rem;
+}
+
+.learn .swiper-button-next {
+  width: 60px;
+  background: url("../img/learn/arrow-right--white.png") no-repeat center;
+  margin-left: 11.9375rem;
 }
 
 .advantage {
@@ -1127,4 +1451,3 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/*# sourceMappingURL=style.css.map */

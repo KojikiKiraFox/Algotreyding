@@ -34,4 +34,10 @@ input{
         color: $blue;
         border: 1px solid $blue;
     }
+    &-white{
+    padding: 1.0625rem 2.4375rem;
+    background-color: transparent;
+    color: $white;
+    border: 1px solid $white;
+    }
 }
